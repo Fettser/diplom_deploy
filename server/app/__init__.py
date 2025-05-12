@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from server.app.interferogram import restore
+from app.interferogram import restore
 from PIL import Image
 import io
 import numpy as np

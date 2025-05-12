@@ -1,0 +1,30 @@
+.container {
+    width: 300px;
+    height: min-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.image_container {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+.info {
+    width: 100%;
+}
+
+.image_placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
